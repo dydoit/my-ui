@@ -1,2 +1,2 @@
-cnpm install
-npm run dev
+* cnpm install
+* npm run dev
