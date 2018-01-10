@@ -1,2 +1,9 @@
 //base scss
-@import 'base/_reroot';
+@import "helpers/variables";
+@import "helpers/mixins/mixins";
+@import 'base/reroot';
+
+//layout
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/grid';

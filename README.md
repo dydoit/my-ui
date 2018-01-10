@@ -5,7 +5,7 @@
   - ul,ol有上下magrin，padding-left
   - dl有上下margin，dd有padding-left
   - h1~h6、p 有上下margin
-  - 表单元素有默认的字体大小和字体样式
+  - button、input、select、textarea等表单元素有默认的字体大小和字体样式
   - input默认有上下padding,有border
   - textarea 有padding ,border
   - a标签有默认样式
