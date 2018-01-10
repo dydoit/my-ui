@@ -1,0 +1,31 @@
+/*test1*/
+@for $i from 1 through 4 {
+  .item-#{$i} {
+    width:10px*$i;
+  }
+}
+/*test2*/
+//SCSS
+$grid-prefix: span !default;
+$grid-width: 60px !default;
+$grid-gutter: 20px !default;
+
+%grid {
+  float: left;
+  margin-left: $grid-gutter / 2;
+  margin-right: $grid-gutter / 2;
+}
+@for $i from 1 through 12 {
+  .#{$grid-prefix}#{$i}{
+    width: $grid-width * $i + $grid-gutter * ($i - 1);
+    @extend %grid;
+  }
+}
+/*test3*/
+$list:".col-xs-1,.col-sm-1";
+@for $i from 2 through 3 {
+  $list: "#{$list},.col-xs-#{$i}, .col-sm-#{$i}";
+}
+#{$list} {
+  position: relative;
+}
