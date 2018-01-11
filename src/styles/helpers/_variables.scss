@@ -5,7 +5,7 @@ $base-lighter:#aaa !default;
 
 $brand-primary:#3D89FE !default;
 //** Background color for `<body>`.
-$body-bg: #fff !default;
+$body-bg: #F7F6F9  !default;
 //** Global text color on `<body>`.
 $text-color: #333 !default;
 //** Global textual link color.
@@ -99,3 +99,10 @@ $container-md:                 $container-desktop !default;
 $container-large-desktop:      (1140px + $grid-gutter-width) !default;
 //** For `$screen-lg-min` and up.
 $container-lg:                 $container-large-desktop !default;
+
+//== Navs
+//
+//##
+
+//=== Shared nav styles
+$nav-link-padding:                          10px 15px !default;
