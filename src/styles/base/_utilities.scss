@@ -14,3 +14,18 @@
 .pull-right {
   float:right;
 }
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+// Toggling content
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}

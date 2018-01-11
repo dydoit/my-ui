@@ -3,7 +3,13 @@
 @import "helpers/mixins/mixins";
 @import 'base/reroot';
 
+//components
+@import 'components/buttons';
+@import 'components/table';
+
 //layout
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/grid';
+
+
