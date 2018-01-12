@@ -1,5 +1,5 @@
 //buttons
-@mixin buttons-variant($color, $background, $border){
+@mixin button-variant($color, $background, $border){
   color: $color;
   background-color: $background;
   border-color: $border;
@@ -10,4 +10,5 @@
   font-size: $font-size;
   line-height: $line-height;
   border-radius: $border-radius;
+
 }

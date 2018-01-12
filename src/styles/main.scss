@@ -1,14 +1,16 @@
-//base scss
+/*base scss*/
 @import "helpers/variables";
 @import "helpers/mixins/mixins";
 @import 'base/reroot';
+@import 'base/utilities';
 
-//components
+/*components*/
 @import 'components/buttons';
 @import 'components/table';
 
-//layout
+/*layout*/
 @import 'layout/header';
+@import 'layout/main-body';
 @import 'layout/footer';
 @import 'layout/grid';
 

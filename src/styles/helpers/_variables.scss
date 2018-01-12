@@ -17,9 +17,9 @@ $font-family-regular:                                  "PingFangSC-Regular",sans
 $font-family-medium:                                   "PingFangSC-Medium",sans-serif !default;
 
 $font-family-base:                                     $font-family-regular !default;
-$font-size-base:                                       14px !default;
+$font-size-base:                                       13px !default;
 $font-size-large:                                      16px !default;
-$font-size-middle:                                     13px !default;
+$font-size-middle:                                     14px !default;
 $font-size-small:                                      12px !default;
 $line-height-base:                                     18px !default;
 
@@ -27,7 +27,7 @@ $line-height-base:                                     18px !default;
 //
 //## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
 
-$padding-base-vertical:     6px !default;
+$padding-base-vertical:     7px !default;
 $padding-base-horizontal:   12px !default;
 
 $padding-large-vertical:    10px !default;
@@ -52,8 +52,9 @@ $btn-default-bg:                                    #fff !default;
 $btn-default-border:                                #ddd !default;
 $btn-primary-color :                                #fff !default;
 $btn-primary-bg :                                     $brand-primary !default;
-$btn-primary-border :                                 darken($btn-primary-bg, 5%) !default;
+$btn-primary-border :                                 transparent !default;
 
+$btn-border-radius-base:    4px !default;
 
 //== Media queries breakpoints
 //

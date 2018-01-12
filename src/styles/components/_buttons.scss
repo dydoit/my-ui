@@ -5,5 +5,17 @@
   cursor : pointer;
   white-space : nowrap;
   user-select : none;
+  border: 1px solid transparent;
+  @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+  outline: none;
 
 }
+.btn-default {
+  @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+}
+.btn-primary {
+  @include button-variant($btn-primary-color,$btn-primary-bg,$btn-primary-border);
+}
+
+// Button Sizes
+

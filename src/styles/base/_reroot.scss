@@ -35,7 +35,7 @@ ol {
 dl {
   margin : 0;
   dd {
-    padding: 0;
+    padding-left: 0;
   }
 }
 //html5
@@ -94,6 +94,7 @@ template {
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 //
 // Improve readability of focused elements when they are also in an
